@@ -24,4 +24,3 @@ module load sge
 module load R/3.5.0\n", 
     as.character(endL), file=filename, append=FALSE)
 system(paste("qsub", filename))
-# }
